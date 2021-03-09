@@ -6,6 +6,7 @@ import { GlobalStyles } from './AppStyles';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Home from './containers/Home/Home';
+import Predict from './containers/Predict/Predict';
 
 class App extends Component {
   render = () => {
@@ -15,6 +16,7 @@ class App extends Component {
         <Header />
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/predict" component={Predict} />
         </Switch>
         <Footer />
       </BrowserRouter>

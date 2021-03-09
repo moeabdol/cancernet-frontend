@@ -28,6 +28,10 @@ class Home extends Component {
               (IDC) Ductal carcinoma in situ (DCIS), also called intraductal
               carcinoma.
             </p>
+            <p>
+              The TensorFlow model was trained using a Convuloutional Neural
+              Network, and have reached an accuracy of %79 after 40 epochs.
+            </p>
           </div>
         </div>
 
